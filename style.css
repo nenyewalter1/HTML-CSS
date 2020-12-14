@@ -1,0 +1,68 @@
+p {
+	font-family: Arial; style="color:red; font-size: 20px;
+}
+
+h1 { Text-color: white;}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+.logo { align-self: flex-start}
+
+header { 	
+	display: flex; 
+	justify-content: space-between;
+    background-color: green;
+    height: 100px;
+  width: 100%;
+}
+
+nav ul { 
+	display: flex; 
+	align-self: flex-end;
+}
+
+nav ul { 
+	list-style-type: none;
+	padding: 0; 
+}
+
+nav a { 
+	text-decoration: none; 
+	color: black; 
+	padding: 10px; 
+	display: block;
+ }
+
+nav li { flex: 1 1 0; }
+
+nav li { align-self: flex-end; }
+
+.main-one { 
+	display: flex;
+	background-color: #828282;
+	width: 100%;
+}
+
+.main { 
+	display: flex; 
+    background-color: #CFCFCF;
+	width: 100%;
+}
+
+.main-second { 
+	padding: 1em;
+	display: flex; 
+    background-color: #828282;
+    width: 100%;
+}
+
+.item {
+	   flex: 1;
+	   padding: 1em;
+	   margin: .6em;
+}
+
+
